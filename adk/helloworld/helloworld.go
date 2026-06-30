@@ -63,7 +63,7 @@ func main() {
 
 	// 执行对话
 	input := []adk.Message{
-		schema.UserMessage("Hello, please introduce yourself."),
+		schema.UserMessage("你好介绍一下你自已."),
 	}
 
 	events := runner.Run(ctx, input)
